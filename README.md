@@ -114,9 +114,6 @@ quantidade disponível daquele livro.
 O sistema também calcula uma **data prevista de devolução de 7 dias após
 o empréstimo**.
 
-```{=html}
-<!-- Substitua pela captura correspondente -->
-```
 <img width="1274" height="566" alt="image" src="https://github.com/user-attachments/assets/4190cc59-d55f-4aaa-a866-3aa05e1ebf35" />
 
 ------------------------------------------------------------------------
