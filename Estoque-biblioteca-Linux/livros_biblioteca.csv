@@ -1,0 +1,12 @@
+id,titulo,autor,categoria,quantidade_total,quantidade_disponivel
+1,O Pequeno Príncipe,Antoine de Saint-Exupéry,Literatura Infantil,5,3
+2,A Bolsa Amarela,Lygia Bojunga,Literatura Infantil,4,2
+3,Menina Bonita do Laço de Fita,Ana Maria Machado,Literatura Infantil,6,5
+4,"Marcelo, Marmelo, Martelo",Ruth Rocha,Literatura Infantil,3,2
+5,O Menino Maluquinho,Ziraldo,Literatura Infantil,5,4
+6,Fábulas de Esopo,Esopo,Fábulas,4,3
+7,Reinações de Narizinho,Monteiro Lobato,Literatura Brasileira,3,2
+8,Chapeuzinho Vermelho,Irmãos Grimm,Contos Clássicos,6,3
+9,O Aviador,Antoine de Saint-Exupéry,Literatura Infantil,5,5
+10,Menino Do Dedo Verde,Maurice Druon,Livro Infantil,5,5
+11,Livro de ciências vergara,Claudio Vergara,Livros científicos,5,5

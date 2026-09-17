@@ -1,0 +1,10 @@
+                                                                                                                                                                                                                                            id,aluno,turma,livro,data_emprestimo,data_prevista_devolucao,data_devolucao_real,status
+1,Ana Clara,2º ano,O Pequeno Príncipe,2025-04-01,2025-04-08,2025-04-08,Devolvido
+2,João Miguel,3º ano,A Bolsa Amarela,2025-04-03,2025-04-10,,Emprestado
+3,Maria Eduarda,1º ano,Menina Bonita do Laço de Fita,2025-04-05,2025-04-12,2025-04-12,Devolvido
+4,Pedro Henrique,4º ano,"Marcelo, Marmelo, Martelo",2025-04-06,2025-04-13,2026-04-26,Devolvido
+5,Laura Vitória,5º ano,O Menino Maluquinho,2025-04-07,2025-04-14,2025-04-14,Devolvido
+6,Lucas Gabriel,3º ano,Fábulas de Esopo,2025-04-09,2025-04-16,2026-04-26,Devolvido
+7,Sofia Beatriz,2º ano,Chapeuzinho Vermelho,2025-04-10,2025-04-17,2025-04-17,Devolvido
+8,Vinícius Martins dos Santos,3 EM,O Pequeno Príncipe,2026-04-26,2026-05-03,2026-09-12,Devolvido
+9,Elizabete Martins da Silva dos Santos,2 EM,Menino Do Dedo Verde,2026-04-26,2026-05-03,2026-04-26,Devolvido
