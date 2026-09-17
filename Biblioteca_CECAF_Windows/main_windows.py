@@ -295,6 +295,15 @@ def servir_layout():
             )
         ], style={"display": "flex", "alignItems": "center", "marginBottom": "20px"}),
 
+        html.Div(
+        "👇 Selecione na bolinha o empréstimo que deseja devolver",
+        style={
+        "fontWeight": "bold",
+        "color": "#1f4e79",
+        "marginBottom": "10px",
+        "fontSize": "15px"
+        }
+    ),
         dash_table.DataTable(
             id="tabela-emprestimos",
             columns=[
@@ -543,7 +552,10 @@ def registrar_devolucao(n_clicks, selected_rows, tabela_filtrada_data, emprestim
         return no_update, no_update, "Selecione um empréstimo na tabela para registrar a devolução."
 
     linha_selecionada = tabela_filtrada_data[selected_rows[0]]
-    id_emprestimo = linha_selecionada["id"]
+    id_emprestimo = linha_selecionada.get("id")
+
+    if id_emprestimo is None:
+        return no_update, no_update, "Não foi possível identificar o empréstimo selecionado."
 
     emprestimos = pd.DataFrame(emprestimos_data)
     livros = pd.DataFrame(livros_data)
